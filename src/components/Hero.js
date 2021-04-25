@@ -26,17 +26,16 @@ const Hero = () => {
     <header className="hero">
       <div className="section-center hero-center">
         <article className="hero-info">
-          <div>
+          <div className="hero-div">
             <div className="job">
               <h3>Front-end Developer</h3>
             </div>
 
             <h1>I'm Ozan</h1>
             <h4>I'm currently working as a front-end developer.</h4>
-            <Link to="/contact" className="btn">
+            <Link to="/" className="btn">
               contact me
             </Link>
-            <SocialLinks />
           </div>
         </article>
         <Image fluid={fluid} className="hero-img" />

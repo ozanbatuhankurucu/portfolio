@@ -248,6 +248,8 @@ p {
   color: var(--clr-primary-7);
 }
 
+
+
 /*
 =============== 
 Navbar
@@ -509,6 +511,8 @@ Hero
 .hero-info {
   background: var(--clr-primary-10);
 }
+
+
 
 .hero-img {
   display: none;
