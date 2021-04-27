@@ -1,22 +1,27 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaSketch, FaAndroid, FaApple } from "react-icons/fa"
+import { SiServerless } from "@react-icons/all-files/si/SiServerless"
+
 export default [
   {
     id: 1,
-    icon: <FaCode className="service-icon" />,
+    icons: [<FaCode className="service-icon" />],
     title: "web development",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `I build and maintenance websites. The work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience.`,
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
-    title: "web design",
+    icons: [<SiServerless className="service-icon" />],
+    title: "serverless",
     text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
-    title: "app design",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    icons: [
+      <FaApple className="service-icon" />,
+      <FaAndroid className="service-icon android" />,
+    ],
+    title: "mobile app development",
+    text: `ReactNative is the best option for me because it includes everything to consolidate the technologies I use in my professional business life and allows me to develop cross-platform applications.`,
   },
 ]

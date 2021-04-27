@@ -36,6 +36,15 @@ const Hero = () => {
             <Link to="/" className="btn">
               contact me
             </Link>
+            <div className="download-div">
+              <a
+                className="download-cv"
+                href="https://my-portfolio-ozan.s3.eu-central-1.amazonaws.com/pdfFiles/ozan's+Resume+-2.pdf"
+                target="_blank"
+              >
+                Download CV
+              </a>
+            </div>
           </div>
         </article>
         <Image fluid={fluid} className="hero-img" />
