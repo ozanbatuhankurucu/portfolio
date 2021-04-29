@@ -13,7 +13,7 @@ export default [
     id: 2,
     icons: [<SiServerless className="service-icon" />],
     title: "serverless",
-    text: `I'm baby meditation tofu chillwave, distillery messenger bag thundercats chicharrones kale chips gochujang. Banh mi direct trade marfa salvia.`,
+    text: `A serverless provider allows users to write and deploy code without the hassle of worrying about the underlying infrastructure. Since I concentrate on the Front-end, I am more interested in serverless technologies.`,
   },
   {
     id: 3,
