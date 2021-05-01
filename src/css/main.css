@@ -697,13 +697,13 @@ Jobs
 }
 
 .job-btn:hover {
-  color: var(--clr-primary-5);
-  box-shadow: 0 2px var(--clr-primary-5);
+  color: var(--clr-primary-6);
+  box-shadow: 0 2px var(--clr-primary-6);
 }
 
 .active-btn {
-  color: var(--clr-primary-5);
-  box-shadow: 0 2px var(--clr-primary-5);
+  color: var(--clr-primary-6);
+  box-shadow: 0 2px var(--clr-primary-6);
 }
 
 .job-info {
@@ -741,7 +741,7 @@ Jobs
 }
 
 .job-icon {
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-6);
 }
 
 @media screen and (min-width: 992px) {
@@ -762,11 +762,11 @@ Jobs
   }
 
   .active-btn {
-    box-shadow: -2px 0 var(--clr-primary-5);
+    box-shadow: -2px 0 var(--clr-primary-6);
   }
 
   .job-btn:hover {
-    box-shadow: -2px 0 var(--clr-primary-5);
+    box-shadow: -2px 0 var(--clr-primary-6);
   }
 }
 

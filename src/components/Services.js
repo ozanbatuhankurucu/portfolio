@@ -7,7 +7,6 @@ const Services = () => {
       <Title title="services" />
       <div className="section-center services-center">
         {services.map(service => {
-          console.log(service)
           const { id, icons, title, text } = service
           return (
             <article key={id} className="service">
