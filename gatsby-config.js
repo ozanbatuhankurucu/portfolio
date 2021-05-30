@@ -11,7 +11,7 @@ module.exports = {
     author: "@ozan",
     twitterUsername: "@obkurucu_",
     image: "/twitter-img.png",
-    siteUrl: "https://master.d2c3dth3blnwrz.amplifyapp.com",
+    siteUrl: "https://ozanbatuhankurucu.com",
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -33,7 +33,7 @@ module.exports = {
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
         //  ONLY ADD TO ARRAY IF YOU HAVE DATA IN STRAPI !!!!
-        contentTypes: [`jobs`],
+        contentTypes: [`jobs`, `projects`],
         singleTypes: [],
       },
     },
