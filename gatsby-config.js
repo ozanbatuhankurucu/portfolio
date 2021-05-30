@@ -6,11 +6,10 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Ozan Portfolio",
+    title: "Ozan Batuhan Kurucu",
     description: "This is a personal portfolio website.",
     author: "@ozan",
     twitterUsername: "@obkurucu_",
-    image: "/twitter-img.png",
     siteUrl: "https://ozanbatuhankurucu.com",
   },
   plugins: [
