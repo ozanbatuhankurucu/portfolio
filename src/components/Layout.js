@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 import Sidebar from "./Sidebar"
 import Footer from "./Footer"
 import { Helmet } from "react-helmet"
-import { useStaticQuery } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query {
