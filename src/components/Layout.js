@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
       </Helmet>
       <Navbar />
       {children}
+      <Footer />
     </>
   )
 }

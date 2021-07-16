@@ -38,7 +38,7 @@ const Hero = () => {
             <div className="download-div">
               <a
                 className="download-cv"
-                href="https://my-portfolio-ozan.s3.eu-central-1.amazonaws.com/pdfFiles/ozan's+Resume+-2.pdf"
+                href="https://my-portfolio-ozan.s3.eu-central-1.amazonaws.com/pdfFiles/ozan's+Resume.pdf"
                 target="_blank"
               >
                 Download CV
