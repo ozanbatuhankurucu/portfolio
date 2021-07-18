@@ -5,6 +5,16 @@ Fonts
 */
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap"); */
 
+@font-face {
+  font-family: GreycliffCF;
+  src: url(../assets//fonts/GreycliffCF-Regular.otf);
+}
+
+@font-face {
+  font-family: HaskoyRegular;
+  src: url(../assets//fonts/Haskoy-Regular.otf);
+}
+
 /*
 =============== 
 Variables
@@ -74,7 +84,7 @@ Global Styles
 }
 
 body {
-  font-family: var(--ff-secondary);
+  font-family: GreycliffCF;
   background: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
@@ -97,7 +107,7 @@ h4 {
   letter-spacing: var(--spacing);
   line-height: 1.25;
   margin-bottom: 0.75rem;
-  font-family: var(--ff-primary);
+  font-family: HaskoyRegular;
   text-transform: capitalize;
 }
 
@@ -1083,6 +1093,7 @@ About Page
 .about-img {
   margin-bottom: 2rem;
   height: 25rem;
+  border-radius: 10px;
 }
 
 .about-text .section-title {
@@ -1180,7 +1191,6 @@ Contact Page
   margin-bottom: 1.25rem;
   background: var(--clr-grey-10);
   border-radius: var(--radius);
-  text-transform: uppercase;
   letter-spacing: var(--spacing);
 }
 

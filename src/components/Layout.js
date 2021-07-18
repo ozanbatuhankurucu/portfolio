@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 // import "../css/main.css"
 import Navbar from "./Navbar"
 import Sidebar from "./Sidebar"
@@ -16,6 +16,10 @@ const Layout = ({ children }) => {
       }
     }
   `)
+  const [isOpen, setIsOpen] = useState(false)
+  const toggleSidebar = () => {
+    setIsOpen(prev => !prev)
+  }
   console.log(data)
   return (
     <>
@@ -23,7 +27,8 @@ const Layout = ({ children }) => {
         <title>{data.site.siteMetadata.title}</title>
         <meta name="description" content={data.site.siteMetadata.description} />
       </Helmet>
-      <Navbar />
+      <Navbar toggleSidebar={toggleSidebar} />
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       {children}
       <Footer />
     </>
