@@ -15,6 +15,7 @@ module.exports = {
     author: "@ozan",
     twitterUsername: "@obkurucu_",
     siteUrl: "https://ozanbatuhankurucu.com",
+    image: '/mainImg.png',
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -47,19 +48,5 @@ module.exports = {
         trackingId: process.env.GA_TRACKING_ID,
       },
     },
-    // {
-    //   resolve: `gatsby-plugin-webfonts`,
-    //   options: {
-    //     fonts: {
-    //       google: [
-    //         {
-    //           family: "Roboto",
-    //           variants: ["400", "700"],
-    //         },
-    //         { family: "Open Sans" },
-    //       ],
-    //     },
-    //   },
-    // },
   ],
 }

@@ -20,13 +20,9 @@ const Layout = ({ children }) => {
   const toggleSidebar = () => {
     setIsOpen(prev => !prev)
   }
-  console.log(data)
+
   return (
     <>
-      <Helmet>
-        <title>{data.site.siteMetadata.title}</title>
-        <meta name="description" content={data.site.siteMetadata.description} />
-      </Helmet>
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       {children}
