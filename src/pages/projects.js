@@ -11,7 +11,7 @@ const ProjectsPage = ({
   console.log(projects)
   return (
     <Layout>
-    <SEO title="Projects" description="This is my projects page." />
+      <SEO title="Projects" description="This is my projects page." />
       <section className="projects-page">
         <Projects projects={projects} title="all projects"></Projects>
       </section>
@@ -40,6 +40,10 @@ export const query = graphql`
         stack {
           id
           title
+        }
+        features {
+          id
+          featureText
         }
       }
     }
