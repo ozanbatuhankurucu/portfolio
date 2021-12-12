@@ -10,9 +10,7 @@ const About = ({
     allStrapiAbout: { nodes },
   },
 }) => {
-  console.log(nodes)
   const { image, info, stack, title } = nodes[0]
-  console.log(stack)
   return (
     <Layout>
       <SEO title="About" description="This is our about page." />
