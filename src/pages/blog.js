@@ -9,7 +9,6 @@ const Blog = ({
     allStrapiBlogs: { nodes: blogs },
   },
 }) => {
-  console.log(blogs)
   return (
     <Layout>
       <SEO title="Blog" description="This is my blog page." />

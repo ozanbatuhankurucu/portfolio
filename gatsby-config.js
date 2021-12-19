@@ -15,7 +15,7 @@ module.exports = {
     author: "@ozan",
     twitterUsername: "@obkurucu_",
     siteUrl: "https://ozanbatuhankurucu.com",
-    image: '/mainImg.png',
+    image: "/hero-img-me.jpeg",
   },
   plugins: [
     `gatsby-transformer-sharp`,

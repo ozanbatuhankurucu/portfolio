@@ -12,10 +12,6 @@ const Project = ({
   index,
   features,
 }) => {
-  console.log("%c -----features----- ", "background: #FF0000")
-  console.log(features)
-  console.log("%c -----features----- ", "background: #FF0000")
-
   return (
     <article className="project">
       <Image fluid={image.childImageSharp.fluid} className="project-img" />

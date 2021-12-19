@@ -4,11 +4,27 @@ import Layout from "../components/Layout"
 import ReactMarkdown from "react-markdown"
 import SEO from "../components/SEO"
 const ComponentName = ({ data }) => {
-  const { content, title, desc } = data.blog
-  console.log(data)
+  const {
+    content,
+    title,
+    desc,
+    image: {
+      childImageSharp: {
+        fluid: { src },
+      },
+    },
+  } = data.blog
+  console.log("%c -----data.src----- ", "background: #FF0000")
+  console.log(src)
+  console.log("%c -----data.src----- ", "background: #FF0000")
+  const articleData = {
+    articleCardImagePath: src,
+    articleTitle: title,
+    articleDesc: desc,
+  }
   return (
     <Layout>
-      <SEO title={title} description={desc} />
+      <SEO article={articleData} />
       <section className="blog-template">
         <div className="section-center">
           <article className="blog-content">
@@ -29,6 +45,13 @@ export const query = graphql`
       content
       title
       desc
+      image {
+        childImageSharp {
+          fluid {
+            src
+          }
+        }
+      }
     }
   }
 `

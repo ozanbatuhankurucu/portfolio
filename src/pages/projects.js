@@ -8,7 +8,6 @@ const ProjectsPage = ({
     allStrapiProjects: { nodes: projects },
   },
 }) => {
-  console.log(projects)
   return (
     <Layout>
       <SEO title="Projects" description="This is my projects page." />
