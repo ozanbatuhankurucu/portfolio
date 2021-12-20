@@ -10,6 +10,11 @@ exports.createPages = async ({ graphql, actions }) => {
           slug
         }
       }
+      site {
+        siteMetadata {
+          title
+        }
+      }
     }
   `)
 
@@ -19,6 +24,7 @@ exports.createPages = async ({ graphql, actions }) => {
       component: path.resolve(`src/templates/blog-template.js`),
       context: {
         slug: blog.slug,
+        author: result.data.site.siteMetadata.title,
       },
     })
   })

@@ -1250,12 +1250,10 @@ Blog Template
 }
 
 .blog-template h3 {
-    margin-top: 2.6rem;
-    margin-bottom: -1.6rem;
+    margin-top: 1.6rem;
 }
 
 .blog-template ul {
-    margin-top: 2.6rem;
     display: inline-block;
 }
 
@@ -1282,7 +1280,7 @@ Blog Template
     overflow-x: scroll;
     padding: 1rem 1.5rem;
     border-radius: var(--radius);
-    margin-top: 2.6rem;
+    margin-top: 1.6rem;
 }
 
 .blog-template img {
@@ -1292,6 +1290,10 @@ Blog Template
 }
 
 .blog-template p {
-    margin-top: 2.6rem;
+    margin-top: 1.6rem;
     margin-bottom: 0;
+}
+
+.blog-template p:first-of-type {
+    margin-top: 2.6rem;
 }
