@@ -29,6 +29,7 @@ export const query = graphql`
         id
         title
         url
+        statu
         image {
           childImageSharp {
             fluid {

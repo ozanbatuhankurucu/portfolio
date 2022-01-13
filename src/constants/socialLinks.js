@@ -20,7 +20,7 @@ const data = [
   {
     id: 3,
     icon: <FaInstagram className="social-icon"></FaInstagram>,
-    url: "https://www.instagram.com/ozankurucu_/?hl=tr",
+    url: "https://www.instagram.com/batuhankurucu_/?hl=tr",
   },
   {
     id: 4,

@@ -63,6 +63,7 @@ Variables
     --transition: all 0.3s linear;
     --spacing: 0.2rem;
     --radius: 0.25rem;
+    --radius-status: 1.5rem;
     --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     --max-width: 1170px;
@@ -832,6 +833,13 @@ Projects
     font-size: 1.25rem;
     color: var(--clr-primary-5);
     margin-bottom: 0.75rem;
+}
+
+.project-statu {
+    padding: 8px 20px;
+    border-radius: var(--radius-status);
+    color: var(--clr-white);
+    float: right;
 }
 
 .project-info h3 {

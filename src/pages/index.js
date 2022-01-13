@@ -23,6 +23,7 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
 export const query = graphql`
   {
     allStrapiProjects(filter: { featured: { eq: true } }) {
@@ -32,6 +33,7 @@ export const query = graphql`
         id
         github
         description
+        statu
         image {
           relativePath
           childImageSharp {
