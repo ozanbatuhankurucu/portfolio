@@ -32,7 +32,9 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: `http://localhost:1337`,
+        apiURL: process.env.DEPLOY_URL
+          ? `https://master.d1mi6ejckxbou.amplifyapp.com`
+          : `http://localhost:1337`,
         queryLimit: 1000, // Default to 100
         //   contentTypes : `jobs`, `projects`, `blogs`,
         //   singleType : `about`
