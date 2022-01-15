@@ -594,7 +594,7 @@ Hero
     .hero-img {
         display: block;
         grid-row: 1/1;
-        grid-column: 9/-1;
+        grid-column: 9/-2;
         border-radius: 10px;
     }
 }
@@ -1263,14 +1263,17 @@ Blog Template
 
 .blog-template ul {
     display: inline-block;
+    list-style-type: disc;
+
 }
 
 .blog-template ul li {
-    background: var(--clr-grey-9);
+    /* background: var(--clr-grey-9);
     color: var(--clr-grey-5);
-    padding: 0.5rem 1rem;
-    margin: 1rem 0;
-    text-transform: uppercase;
+    padding: 0.5rem 1rem;   
+    text-transform: uppercase; */
+    margin: 0.5rem 0;
+    margin-left: 1rem;
 }
 
 .blog-template blockquote {
