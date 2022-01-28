@@ -26,7 +26,10 @@ export default ({ data }) => {
 
 export const query = graphql`
   {
-    allStrapiProjects(filter: { featured: { eq: true } }) {
+    allStrapiProjects(
+      filter: { featured: { eq: true } }
+      sort: { fields: createdAt, order: DESC }
+    ) {
       nodes {
         title
         url

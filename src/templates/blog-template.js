@@ -57,7 +57,7 @@ const ComponentName = ({ data, pageContext }) => {
               source={content}
             />
           </article>
-          <Link to="blog" className="btn center-btn">
+          <Link to="/blog" className="btn center-btn">
             blog
           </Link>
         </div>

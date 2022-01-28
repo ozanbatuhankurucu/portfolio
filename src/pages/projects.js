@@ -22,7 +22,7 @@ export default ProjectsPage
 
 export const query = graphql`
   {
-    allStrapiProjects {
+    allStrapiProjects(sort: { fields: createdAt, order: DESC }) {
       nodes {
         description
         github
