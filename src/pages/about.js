@@ -19,9 +19,9 @@ const About = ({
           <Image fluid={image.childImageSharp.fluid} className="about-img" />
           <article className="about-text">
             <Title title={title} />
-            <p>Ozan Batuhan Kurucu, Mobile Application Developer</p>
+            <p>Ozan Batuhan Kurucu, Front-end Developer</p>
             <p>
-              I am dedicated to developing engaging mobile applications for the
+              I am dedicated to developing web projects for the
               software world.
             </p>
             <p>{info}</p>

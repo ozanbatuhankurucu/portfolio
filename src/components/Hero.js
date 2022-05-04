@@ -27,11 +27,11 @@ const Hero = () => {
         <article className="hero-info">
           <div className="hero-div">
             <div className="job">
-              <h3>Mobile Application Developer</h3>
+              <h3>Front-end Developer</h3>
             </div>
 
             <h1>Hi, I'm Ozan</h1>
-            <h4>I'm a mobile application developer from Izmir.</h4>
+            <h4>I'm a front-end developer from Izmir.</h4>
             <Link to="/contact" className="btn">
               contact me
             </Link>
