@@ -53,6 +53,7 @@ export const query = graphql`
           id
           featureText
         }
+        featuresTitle
       }
     }
     allStrapiBlogs(limit: 3, sort: { fields: date, order: DESC }) {

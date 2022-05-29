@@ -14,6 +14,7 @@ const Project = ({
   index,
   statu,
   features = [],
+  featuresTitle,
 }) => {
   const { projectStatu, statuColor } = getProjectStatuProps(statu)
 
@@ -29,7 +30,7 @@ const Project = ({
         <p className="project-desc">{description}</p>
         {features.length > 0 ? (
           <figure>
-            <figcaption>Features</figcaption>
+            {featuresTitle && <figcaption>{featuresTitle}</figcaption>}
             <ul className="features-list">
               {features.map(feature => {
                 const { id, featureText } = feature
