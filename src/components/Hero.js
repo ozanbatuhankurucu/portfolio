@@ -32,7 +32,11 @@ const Hero = () => {
 
             <h1>Hi, I'm Ozan</h1>
             <h4>I'm a front-end developer from Izmir.</h4>
-            <Link to="/contact" className="btn">
+            <Link
+              to="https://www.linkedin.com/in/ozan-batuhan-kurucu-66b120182/"
+              className="btn"
+              target="_blank"
+            >
               contact me
             </Link>
             <div className="download-div">

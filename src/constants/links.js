@@ -21,11 +21,6 @@ const data = [
     text: "projects",
     url: "/projects",
   },
-  {
-    id: 5,
-    text: "contact",
-    url: "/contact",
-  },
 ]
 
 const tempLinks = data.map(link => {
